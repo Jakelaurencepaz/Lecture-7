@@ -64,6 +64,33 @@ Task 2
      
   Task 3 
   
+  SCENARIO 1: 
+  
+        #include<iostream>
+        using namespace std;
+
+        int main()
+        {
+	int number = 10;
+
+		cout << "how much do you have?" << endl;
+		cin >> number;
+		if (number >= 5) {
+			cout << "go get coffee";
+		}else{
+			if (number <= 5) {
+				cout << "go for a walk around town";
+
+
+
+			}
+		}
+	}
+        
+ SCENARIO 2:
+ 
+ 
+  
   
   
   
