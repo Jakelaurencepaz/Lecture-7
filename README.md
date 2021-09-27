@@ -1,6 +1,26 @@
 # Nested-If-HOMEWORK
 Task 1
 
+        #include<iostream>
+        using namespace std;
+
+        int main()
+    {
+    int number = 75;
+    cout << "enter the students grade : " << endl;
+    cin >> number;
+
+    if (number >= 70) {
+        cout << "the student's grade is a A";
+    }
+    else {
+        if (number <= 70) {
+            cout << "the student's grade is a B";
+
+        }
+    }
+    }
+
 
 
 
@@ -43,5 +63,7 @@ Task 2
      
      
   Task 3 
+  
+  
   
   
