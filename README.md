@@ -117,6 +117,20 @@ Task 2
 
 TASK 4: 
 
+	#include<iostream>
+	using namespace std;
+
+	int main()
+	{
+	int number = 7.0;
+	cout << "enter the magnitude of the earthquake : ";
+	cin >> number;
+
+	if (number <= 8.0) {
+		cout << "the descriptor says that it is major.";
+	}
+	}
+
 
  
  
