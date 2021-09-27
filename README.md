@@ -89,6 +89,36 @@ Task 2
         
  SCENARIO 2:
  
+	 #include<iostream>
+	#include<string>
+	using namespace std;
+
+	int main()
+	{
+	cout << "what are you gonna do?\n" << endl;
+	cout << "1. sit in the foodzone\n";
+	cout << "2. walk around\n";
+	cout << "3. leave him\n";
+	//string a = "sit in the foodzone"
+	//string b = "sit in the foodzone"
+	cout << "type in the number that represents your decision\n";
+	string a;
+	cin >> a;
+		if (a == "1.") {
+			cout << "smart choice\n";
+		}
+		else {
+			cout << "bad choice\n";
+		}
+
+	}
+	
+	
+
+TASK 4: 
+
+
+ 
  
   
   
